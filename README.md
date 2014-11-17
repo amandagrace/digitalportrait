@@ -2,6 +2,9 @@ Colorful History - A Digital Portrait
 
 Created by Amanda Grace Wall for LMC 2700 at Georgia Tech
 
+NOTE: Please give the application several minutes to load the data from the DPLA.
+Don't have the time to wait? Watch the 30 second video to get a feel for the project.
+
 Out of all historic artifacts, posters are my favorite. What did a society care enough about to slap on a sheet of paper and spread around town? What did the designers value aesthetically at the time? I believe posters provide one of the best quick glances at a society and its values. So I found a collection in the DPLA database that had a wide, but manageable, assortment of posters from the past 100 years: the Cooper Hewitt Design Museum. I wanted to create an environment where the user can explore the content and color scheme of each poster individually but also explore a wider overview of the poster colors pixel by pixel, so my project has two modes.
 
 Both modes work by analyzing the colors in the image pulled from the DPLA. The images are pulled from the thumbnails of the result, loaded as a PImage, and then analyzed by pixel to determine the number of pixels per hue. This data, as well as saturation and brightness values, are kept in arrays that are used to determine the three most dominant colors in the image. The differences in hue between these colors is then used to determine their color relationship. The majority of this needs to be done during setup, so this program takes a few minutes before loading to process the hundreds of images.
