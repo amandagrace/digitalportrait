@@ -1,4 +1,5 @@
 Colorful History - A Digital Portrait
+
 Created by Amanda Grace Wall for LMC 2700 at Georgia Tech
 
 Out of all historic artifacts, posters are my favorite. What did a society care enough about to slap on a sheet of paper and spread around town? What did the designers value aesthetically at the time? I believe posters provide one of the best quick glances at a society and its values. So I found a collection in the DPLA database that had a wide, but manageable, assortment of posters from the past 100 years: the Cooper Hewitt Design Museum. I wanted to create an environment where the user can explore the content and color scheme of each poster individually but also explore a wider overview of the poster colors pixel by pixel, so my project has two modes.
